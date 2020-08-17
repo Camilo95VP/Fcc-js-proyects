@@ -1,0 +1,46 @@
+body{
+    background-image: url(imagenes/thumb-1920-474157.jpg);
+}
+
+.tittle{
+    color: white;
+    text-align: center;
+    margin: 100px;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 159);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+.contact-details {
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #fdfcd0;
+    transition: transform 0.1s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+}
