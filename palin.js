@@ -1,4 +1,4 @@
-function palindrome_validator(event) { 
+function palindrome(event) { 
     event.preventDefault();
 
     var str = document.getElementById('input').value;

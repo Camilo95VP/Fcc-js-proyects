@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="palin.css">
+    <title>Palindrome</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="title">
+            <h1 class="h1">Palindrome Checker</h1>
+            <h3>Un <span>palindrome</span> es una palabra, frase u oración que se lee igual hacia atrás y hacia adelante.</h3>
+        </header>
+        <form>
+            <label for="input"></label>
+            <input id="input" type="text" placeholder="ingresa un palindrome" />
+            <button onclick="palindrome(event)">Verificar Palindrome</button>
+        </form>
+        <div class="resultados">
+            <h1 id="result"></h1>
+        </div>
+    </div>
+
+    <script src="palin.js"></script>
+</body>
+
+</html>

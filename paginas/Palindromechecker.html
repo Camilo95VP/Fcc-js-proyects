@@ -12,10 +12,30 @@
 
 <body>
     <h1 class="tittle">PALINDROME CHECKER</h1>
-    <section class="container">
-        <a type="button" href="../index.html" class="btn btn-primary">Back</a>
+    <div class="container">
+       
+            <h3 id="titulo">Intenta ingresar un palindrome.</h3>
+        
+        <form>
+            <label for="input"></label>
+            <input id="input" type="text" placeholder="Escribe aqui" />
+            <button onclick="palindrome_validator(event)">VERIFICAR</button>
+        </form>
+        <div class="resultados">
+            <h1 id="result"></h1>
+           
+        </div>
+        <p id="significado"><em>"Palabra o expresión que es igual si se lee de izquierda a derecha que de derecha a izquierda."</em></p>
+    </div>
     
-    </section>
+   
+
+    <div id="volver">
+        
+        <a type="button" href="../index.html" class="btn btn-primary">Back</a>
+     
+    </div>
+
 
 
 
@@ -24,8 +44,7 @@
    
     <section id="contact" class="contact-section">
         <div class="contact-section-header">
-           <!-- <h2>Let's work together...</h2>
-                <p> <em> How do you take your coffee? </em> </p> !-->
+          
         </div>
         <div class="contact-links">
             <a href="https://www.facebook.com/camilo.castaneda.71/" target="_blank" class="btn contact-details"><i
@@ -39,7 +58,7 @@
     </section>
 </footer>
 
-
+<script src="../js/Palindromechecker.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
