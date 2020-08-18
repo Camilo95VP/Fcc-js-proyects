@@ -6,12 +6,15 @@ body{
     color: white;
     text-align: center;
     margin: 100px;
+
 }
 
 .container{
     text-align: center;
     
 }
+
+
 
 .contact-section {
     display: flex;

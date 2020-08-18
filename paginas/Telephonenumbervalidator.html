@@ -12,11 +12,28 @@
 
 <body>
     <h1 class="tittle">TELEPHONE NUMBER VALIDATOR</h1>
-    <section class="container">
-        <a type="button" href="../index.html" class="btn btn-primary">Back</a>
-     
-    </section>
+    
+    <div class="panel">
+      
+    
+    <div id="container">
+      
+        <p class="sub-text">
+            Número de telefono valido para Colombia
+        </p>
+        <input id="check" type="text" placeholder="Numero de telefono" />
+        <button id="validar" class="btn btn-success" onclick="telephoneCheck(check.value)">
+            VALIDAR
+        </button>
 
+        <div id="print"></div>
+    
+
+    
+        <a id="volver" type="button" href="../index.html" class="btn btn-primary">Back</a>
+     
+    
+    </div>
 
 
 
@@ -39,6 +56,7 @@
     </section>
 </footer>
 
+<script src="../js/Telephonenumbervalidator.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
