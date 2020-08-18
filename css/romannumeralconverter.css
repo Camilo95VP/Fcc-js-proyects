@@ -49,7 +49,7 @@ body{
     text-align: center;
     width: 100%;
     height: 55vh;
-    padding: 0 2rem;
+    padding: 50px;
     background: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 159);
 }
@@ -77,5 +77,5 @@ body{
     text-align: center;
     font-size: 50px;
     margin: 20px auto;
-    color: rgb(218, 255, 7);
+    color: rgb(255, 196, 0);
 }

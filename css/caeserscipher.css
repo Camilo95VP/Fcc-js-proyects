@@ -1,5 +1,7 @@
 body{
     background-image: url(../imagenes/thumb-1920-474157.jpg);
+    justify-content: center;
+    text-align: center;
 }
 
 .tittle{
@@ -8,23 +10,22 @@ body{
     margin: 100px;
 }
 
-.container1{
-    text-align: center;
-    justify-content: center;
-    
-    
-}
-
-#volver{
-    position: relative;
-    margin-left: 672px;
-    width: 180px;
+.container{
+    align-items: center;
     
 }
 
 #input-cifrar{
+    width: 400px;
     text-align: center;
+    background-color: rgba(255, 254, 254, 0.068);
+    color: rgb(255, 255, 255);
 }
+
+.btn-primary{
+    width: 200px;
+}
+
 
 .contact-section {
     display: flex;
@@ -59,18 +60,12 @@ body{
 }
 
 .resultado {
-    margin-top: 20px;
-    margin-left: 25%;
-    width: 50%;
     min-height: 70px;
-    font-size: 20px;
-    background-color: #c4c4c4;
-    border: 3px solid #000;
+    font-size: 30px;
+    background-color: #00000000;
+    color: rgb(255, 196, 0);
     padding: 10px;
-    overflow: auto;
     text-align: center;
     justify-content: center;
-    position: relative;
-    left: 360px;
     margin: 20px;
 }
