@@ -1,9 +1,9 @@
 function getNumber() {
     let input = parseInt(document.querySelector("#num1").value);
-    toRomanNumber(input);
+    RomanNumber(input);
 }
 
-function toRomanNumber(num) {
+function RomanNumber(num) {
     let romanNum = "";
     let romanNumeral = [
         "M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"
@@ -19,7 +19,7 @@ function toRomanNumber(num) {
 }
 
 function updateUI(roman) {
-    document.querySelector("#roman").innerHTML = roman;
+    document.querySelector("#roman-num").innerHTML = roman;
     console.log(input);
-    toRomanNumber(input);
+    RomanNumber(input);
 }
