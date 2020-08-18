@@ -72,3 +72,10 @@ body{
 .contact-details:hover {
     transform: translateY(8px);
 }
+
+#result {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px auto;
+    color: rgb(218, 255, 7);
+}

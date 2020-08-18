@@ -1,5 +1,5 @@
 function getNumber() {
-    let input = parseInt(document.querySelector("#num1").value);
+    let input = parseInt(document.querySelector("#number").value);
     toRomanNumber(input);
 }
 
