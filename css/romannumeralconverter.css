@@ -24,6 +24,13 @@ body{
 #num1{
     margin-left: 20px;
     width: 80px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 6px;
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.034);
 }
 
 .input-group{

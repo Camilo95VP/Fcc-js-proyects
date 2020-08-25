@@ -10,7 +10,7 @@ body{
 
 #volver{
     
-    padding: 10px;
+    padding: 5px;
     width: 200px;
     margin: 20px;
 
@@ -31,15 +31,17 @@ body{
 
 #check{
   background-color: rgba(255, 255, 255, 0.116);
-  padding: 10px;
+  padding: 4px;
+  border-color: rgba(0, 0, 0, 0);
   color: white;
   font-size: 20px;
+
 }
 
 #validar{
-    padding: 12px;
+    padding: 7px;
     position: relative;
-    bottom: 3px;
+    bottom: 4.1px;
     
 }
 

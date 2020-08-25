@@ -12,6 +12,9 @@ body{
     text-align: center;
     
 }
+#text{
+    color: rgb(255, 196, 0);
+}
 
 .contact-section {
     display: flex;

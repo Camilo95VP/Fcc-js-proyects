@@ -40,8 +40,9 @@ form {
 }
 
 input, button {
-        padding: 20px;
+        
         border: 0;
+        width: 30vh;
         font-size: 4vmin;
         outline: none;
         border: solid black;
@@ -51,13 +52,16 @@ input, button {
         background-color: rgba(255, 255, 255, 0.062);
         flex-grow: 2;
         color: white;
+        border-color : rgba(0, 0, 0, 0);
+        
     }
 
     button {
-        
+        height: 60;
         flex-grow: 1;
         justify-content: center;
-        background-color: rgb(255, 196, 0);
+        margin: 10px;
+        
         
 }
 

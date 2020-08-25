@@ -10,7 +10,7 @@ function palindrome_validator(event) {
     if (splitStr === lowStr) {
         result.innerHTML = 'Felicidades, esto es un Palindrome';
     } else {
-        result.innerHTML = 'Lo siento, esto no es un Palindrome';
+        result.innerHTML = 'Lo sentimos, no es un Palindrome';
     }
 
     return false;
